@@ -1,0 +1,122 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  font-family: var(--font-manrope), sans-serif;
+  --navbar-height: 88px;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  overscroll-behavior: none;
+  overscroll-behavior-y: none;
+}
+#__next {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.input {
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+  padding: 0.75rem 1rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  width: 100%;
+  transition: border-color 0.15s ease-in-out;
+}
+.input:hover {
+  border-color: #d87d4a;
+}
+.input:focus {
+  border-color: #d87d4a;
+  outline: none;
+}
+.input-error {
+  border-color: #cd2c2c;
+}
+.radio {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  transition: border-color 0.15s ease-in-out;
+}
+.radio-hover {
+  border-color: #d87d4a;
+}
+.radio input {
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+.radio-custom {
+  width: 16px;
+  height: 16px;
+  border-radius: 9999px;
+  border: 2px solid #cfcfcf;
+  position: relative;
+  transition: border-color 0.2s ease;
+}
+.radio-custom::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: #d87d4a;
+  border-radius: 9999px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 0.2s ease;
+}
+input:checked ~ .radio-custom {
+  border: 1px solid #cfcfcf;
+}
+
+input:checked ~ .radio-custom::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: #d87d4a;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+}
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, 10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+.animate-fadeUp {
+  animation: fadeUp 0.3s ease-out forwards;
+}
+@media (min-width: 768px) {
+  :root {
+    --navbar-height: 86px;
+  }
+}
