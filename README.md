@@ -54,9 +54,9 @@ public/
  However, emails sent via the Test Service only appear in your EmailJS dashboard Logs and are NOT ALWAYS delivered to real customer inboxes everytime.
 
 ## Required Environment Variables
- NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=your_public_key
- NEXT_PUBLIC_EMAILJS_SERVICE_ID=your_service_id
- NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=your_template_id
+1. NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=your_public_key
+2. NEXT_PUBLIC_EMAILJS_SERVICE_ID=your_service_id
+3. NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=your_template_id
 
 # Getting Started (Local Setup)
 1. Clone the repository
@@ -66,9 +66,9 @@ public/
    npm install
 3. Create '.env.local' file in the project root with the following variables:
    # EmailJS (Using Test Service)  
-   NEXT_PUBLIC_EMAILJS_PUBLIC_KEY= "your_public_key"
-   NEXT_PUBLIC_EMAILJS_SERVICE_ID= "your_service_id"
-   NEXT_PUBLIC_EMAILJS_TEMPLATE_ID= "your_template_id"
+  1. NEXT_PUBLIC_EMAILJS_PUBLIC_KEY= "your_public_key"
+  2. NEXT_PUBLIC_EMAILJS_SERVICE_ID= "your_service_id"
+  3. NEXT_PUBLIC_EMAILJS_TEMPLATE_ID= "your_template_id"
    # Convex
    NEXT_PUBLIC_CONVEX_URL= "https://your-deployment.convex.cloud"
     *Replace the values with your own from the Convex and EmailJS dashboards.*
