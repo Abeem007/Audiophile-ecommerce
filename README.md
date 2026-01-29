@@ -65,16 +65,16 @@ public/
 2. Install dependencies
    npm install
 3. Create '.env.local' file in the project root with the following variables:
-   # EmailJS (Using Test Service)  
+    EmailJS (Using Test Service)  
   1. NEXT_PUBLIC_EMAILJS_PUBLIC_KEY= "your_public_key"
   2. NEXT_PUBLIC_EMAILJS_SERVICE_ID= "your_service_id"
   3. NEXT_PUBLIC_EMAILJS_TEMPLATE_ID= "your_template_id"
-   # Convex
+    Convex
    NEXT_PUBLIC_CONVEX_URL= "https://your-deployment.convex.cloud"
-    *Replace the values with your own from the Convex and EmailJS dashboards.*
-5. Run the dev server
-   npm run dev
-Open: http://localhost:3000
+     Replace the values with your own from the Convex and EmailJS dashboards.
+  4. Run the dev server
+     npm run dev
+     Open: http://localhost:3000
 
 ## Deployment (Netlify)
 1. Push project to GitHub.
@@ -96,6 +96,7 @@ Open: http://localhost:3000
 ## License
 MIT License
 
- 
+## Acknowledgement
+Audiophile design inspiration
  
  
