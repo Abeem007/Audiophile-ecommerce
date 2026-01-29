@@ -6,27 +6,27 @@ https://audiophille-ecommerce.netlify.app/
 
 ## Tech Stack
 # Frontend
--> Next.js (App Router)
--> React
--> Typescript
--> Tailwind Css
+1. Next.js (App Router)
+2. React
+3. Typescript
+4. Tailwind Css
 
 # Backend/Services
--> Convex – serverless backend & data management
--> EmailJS – contact form email delivery
+1. Convex – serverless backend & data management
+2. EmailJS – contact form email delivery
 
 # Deployment
--> Github
--> Netlify
+1. Github
+2. Netlify
 
 ## Features
--> Fully responsive layout (mobile, tablet, desktop)
--> Product listing & product detail pages
--> Client-side cart management (add, increment, decrement, remove all)
--> Checkout page UI
--> Email contact form using EmailJS
--> Dynamic routes (e.g. /product/[slug], /[social])
--> Smooth UI feedback animations (add-to-cart toast)
+1. Fully responsive layout (mobile, tablet, desktop)
+2. Product listing & product detail pages
+3. Client-side cart management (add, increment, decrement, remove all)
+4. Checkout page UI
+5. Email contact form using EmailJS
+6. Dynamic routes (e.g. /product/[slug], /[social])
+7. Smooth UI feedback animations (add-to-cart toast)
 
 ## Project Structure
 app/
@@ -51,7 +51,7 @@ public/
 
 ## EmailJS Integration
  This project currently uses EmailJS's Test Service. This service is perfect for development and deployment testing, as it allows sends without authentication issues.
- # However, emails sent via the Test Service only appear in your EmailJS dashboard Logs and are NOT ALWAYS delivered to real customer inboxes everytime.
+ However, emails sent via the Test Service only appear in your EmailJS dashboard Logs and are NOT ALWAYS delivered to real customer inboxes everytime.
 
 ## Required Environment Variables
  NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=your_public_key
