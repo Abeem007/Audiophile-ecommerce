@@ -1,25 +1,25 @@
-## Audiophile E-commerce Website
+# Audiophile E-commerce Website
 A modern, responsive e-commerce web application for audio products, built with Next.js App Router, Tailwind CSS, Convex backend, and EmailJS for contact/email functionality.
 
-## Live Demo
+# Live Demo
 https://audiophille-ecommerce.netlify.app/
 
-## Tech Stack
-# Frontend
+# Tech Stack
+## Frontend
 1. Next.js (App Router)
 2. React
 3. Typescript
 4. Tailwind Css
 
-# Backend/Services
+## Backend/Services
 1. Convex – serverless backend & data management
 2. EmailJS – contact form email delivery
 
-# Deployment
+## Deployment
 1. Github
 2. Netlify
 
-## Features
+# Features
 1. Fully responsive layout (mobile, tablet, desktop)
 2. Product listing & product detail pages
 3. Client-side cart management (add, increment, decrement, remove all)
@@ -28,7 +28,7 @@ https://audiophille-ecommerce.netlify.app/
 6. Dynamic routes (e.g. /product/[slug], /[social])
 7. Smooth UI feedback animations (add-to-cart toast)
 
-## Project Structure
+# Project Structure
 app/
  ├─ layout.tsx
  ├─ page.tsx
@@ -58,7 +58,7 @@ public/
  NEXT_PUBLIC_EMAILJS_SERVICE_ID=your_service_id
  NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=your_template_id
 
-## Getting Started (Local Setup)
+# Getting Started (Local Setup)
 1. Clone the repository
    git clone https://github.com/your-username/audiophile-ecommerce.git
    cd audiophile-ecommerce
