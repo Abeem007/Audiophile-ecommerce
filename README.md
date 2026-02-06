@@ -29,6 +29,9 @@ https://audiophille-ecommerce.netlify.app/
 7. Smooth UI feedback animations (add-to-cart toast)
 
 # Project Structure
+
+```bash
+audiophile-e-commerce-landing/
 app/
  ├─ layout.tsx
  ├─ page.tsx
@@ -48,6 +51,7 @@ app/
  ├─ globals.css
 public/
  └─ assets/
+```
 
 ## EmailJS Integration
  This project currently uses EmailJS's Test Service. This service is perfect for development and deployment testing, as it allows sends without authentication issues.
